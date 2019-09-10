@@ -1,0 +1,1276 @@
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 1.004 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  dev-target/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.766 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 1.041 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.861 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[36m----  Compiler Warning on   src/cljs/sin_wave/core.cljs   line:8  column:2  ----[0m
+
+  [1mUse of undeclared Var sin-wave.core/pritln[0m
+
+  [36m 4[0m  [36m(enable-console-print!)[0m
+  [36m 5[0m  [36m[0m
+  [36m 6[0m  [36m(def app-state (atom {:text "Hello Chestnutsss!"}))[0m
+  [36m 7[0m  [36m[0m
+  [33m 8[0m  [1m(pritln "hell worlds")[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var sin-wave.core/pritln[0m
+  [36m 9[0m  [36m[0m
+  [36m10[0m  [36m(defn greeting [][0m
+  [36m11[0m  [36m  [:h1 (:text @app-state)])[0m
+  [36m12[0m  [36m[0m
+  [36m13[0m  [36m(defn render [][0m
+
+[36m----  Compiler Warning : Please see src/cljs/sin_wave/core.cljs  ----[0m
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.9 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.865 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.667 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.856 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.794 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.883 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[36m----  Compiler Warning on   src/cljs/sin_wave/core.cljs   line:15  column:1  ----[0m
+
+  [1mtime already refers to: cljs.core/time being replaced by: sin-wave.core/time[0m
+
+  [36m11[0m  [36m(def ctx (.getContext canvas "2d"))[0m
+  [36m12[0m  [36m(.clearRect ctx 0 0 (.-width canvas) (.-height canvas))[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(def interval js.Rx.Observable.interval)[0m
+  [33m15[0m  [1m(def time (interval 10))[0m
+  [0m  [0m  [33m^--- time already refers to: cljs.core/time being replaced by: sin-wave.core/time[0m
+  [36m16[0m  [36m[0m
+  [36m17[0m  [36m(defn greeting [][0m
+  [36m18[0m  [36m  [:h1 (:text @app-state)])[0m
+  [36m19[0m  [36m[0m
+  [36m20[0m  [36m(defn render [][0m
+
+[36m----  Compiler Warning : Please see src/cljs/sin_wave/core.cljs  ----[0m
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.716 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[36m----  Compiler Warning on   src/cljs/sin_wave/core.cljs   line:15  column:1  ----[0m
+
+  [1mtime already refers to: cljs.core/time being replaced by: sin-wave.core/time[0m
+
+  [36m11[0m  [36m(def ctx (.getContext canvas "2d"))[0m
+  [36m12[0m  [36m(.clearRect ctx 0 0 (.-width canvas) (.-height canvas))[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(def interval js.Rx.Observable.interval)[0m
+  [33m15[0m  [1m(def time (interval 10))[0m
+  [0m  [0m  [33m^--- time already refers to: cljs.core/time being replaced by: sin-wave.core/time[0m
+  [36m16[0m  [36m[0m
+  [36m17[0m  [36m(-> time[0m
+  [36m18[0m  [36m    (.take 5)[0m
+  [36m19[0m  [36m    (.subscribe (fn [n][0m
+  [36m20[0m  [36m                    (.log js/console n))))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/sin_wave/core.cljs  ----[0m
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.883 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.692 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.884 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "dev"] in 0.32 seconds.[0m
+[36m----  Could not Analyze  src/cljs/sin_wave/core.cljs   line:12  column:21  ----[0m
+
+  [1mUnknown dot form of (. .getElementById -width (js/document "myCanvas")) with classification [:cljs.analyzer/expr :cljs.analyzer/property :cljs.analyzer/expr][0m
+
+  [36m10[0m  [36m(def canvas (.getElementById js/document "myCanvas"))[0m
+  [36m11[0m  [36m(def ctx (.getContext canvas "2d"))[0m
+  [33m12[0m  [1m(.clearRect ctx 0 0 (.-width .getElementById js/document "myCanvas") (.-height .getElementById js/document "myCanvas"))[0m
+  [0m  [0m  [33m                    ^--- Unknown dot form of (. .getElementById -width (js/document "myCanvas")) with classification [:cljs.analyzer/expr :cljs.analyzer/property :cljs.analyzer/expr][0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(def interval js.Rx.Observable.interval)[0m
+  [36m15[0m  [36m(def timing (interval 10))[0m
+
+[36m----  Analysis Error : Please see src/cljs/sin_wave/core.cljs  ----[0m
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[36m----  Compiler Warning on   src/cljs/sin_wave/core.cljs   line:12  column:22  ----[0m
+
+  [1mUse of undeclared Var sin-wave.core/-width[0m
+
+  [36m 8[0m  [36m(.log js/console "hell worldsz")[0m
+  [36m 9[0m  [36m[0m
+  [36m10[0m  [36m(def canvas (.getElementById js/document "myCanvas"))[0m
+  [36m11[0m  [36m(def ctx (.getContext canvas "2d"))[0m
+  [33m12[0m  [1m(.clearRect ctx 0 0 (-width .getElementById js/document "myCanvas") (-height .getElementById js/document "myCanvas"))[0m
+  [0m  [0m  [33m                     ^--- Use of undeclared Var sin-wave.core/-width[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(def interval js.Rx.Observable.interval)[0m
+  [36m15[0m  [36m(def timing (interval 10))[0m
+  [36m16[0m  [36m[0m
+  [36m17[0m  [36m(-> timing[0m
+
+[36m----  Compiler Warning : Please see src/cljs/sin_wave/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/sin_wave/core.cljs   line:12  column:70  ----[0m
+
+  [1mUse of undeclared Var sin-wave.core/-height[0m
+
+  [36m 8[0m  [36m(.log js/console "hell worldsz")[0m
+  [36m 9[0m  [36m[0m
+  [36m10[0m  [36m(def canvas (.getElementById js/document "myCanvas"))[0m
+  [36m11[0m  [36m(def ctx (.getContext canvas "2d"))[0m
+  [33m12[0m  [1m(.clearRect ctx 0 0 (-width .getElementById js/document "myCanvas") (-height .getElementById js/document "myCanvas"))[0m
+  [0m  [0m  [33m                                                                     ^--- Use of undeclared Var sin-wave.core/-height[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(def interval js.Rx.Observable.interval)[0m
+  [36m15[0m  [36m(def timing (interval 10))[0m
+  [36m16[0m  [36m[0m
+  [36m17[0m  [36m(-> timing[0m
+
+[36m----  Compiler Warning : Please see src/cljs/sin_wave/core.cljs  ----[0m
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 1.114 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.951 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[36m----  Compiler Warning on   src/cljs/sin_wave/core.cljs   line:26  column:28  ----[0m
+
+  [1mUse of undeclared Var sin-wave.core/deg-to-rad[0m
+
+  [36m22[0m  [36m(defn deg-ro-rad [n][0m
+  [36m23[0m  [36m      (* (/ Math/PI 180) n))[0m
+  [36m24[0m  [36m[0m
+  [36m25[0m  [36m(defn sine-coord [x][0m
+  [33m26[0m  [1m      (let [sin (Math/sin (deg-to-rad x))[0m
+  [0m  [0m  [33m                           ^--- Use of undeclared Var sin-wave.core/deg-to-rad[0m
+  [36m27[0m  [36m            y (- 100 (* sin 90))][0m
+  [36m28[0m  [36m           {:x x[0m
+  [36m29[0m  [36m            :y y[0m
+  [36m30[0m  [36m            :sin sin}))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/sin_wave/core.cljs  ----[0m
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.763 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.702 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.736 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "dev"] in 0.339 seconds.[0m
+[36m----  Could not Analyze  src/cljs/sin_wave/core.cljs   line:34  column:1  ----[0m
+
+  [1mWrong number of args (1) passed to: cljs.analyzer/fn--1783/pfn--1784[0m
+
+  [36m32[0m  [36m(.log js/console (str (sine-coord 50)))[0m
+  [36m33[0m  [36m[0m
+  [33m34[0m  [1m(def)[0m
+  [0m  [0m  [33m^--- Wrong number of args (1) passed to: cljs.analyzer/fn--1783/pfn--1784[0m
+  [36m35[0m  [36m[0m
+  [36m36[0m  [36m(defn greeting [][0m
+  [36m37[0m  [36m  [:h1 (:text @app-state)])[0m
+
+[36m----  Analysis Error : Please see src/cljs/sin_wave/core.cljs  ----[0m
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.786 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.678 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[36m----  Compiler Warning on   src/cljs/sin_wave/core.cljs   line:37  column:5  ----[0m
+
+  [1mUse of undeclared Var sin-wave.core/since-wave[0m
+
+  [36m34[0m  [36m(def sine-wave[0m
+  [36m35[0m  [36m  (.map timing sine-coord))[0m
+  [36m36[0m  [36m[0m
+  [33m37[0m  [1m(-> since-wave[0m
+  [0m  [0m  [33m    ^--- Use of undeclared Var sin-wave.core/since-wave[0m
+  [36m38[0m  [36m    (.take 5)[0m
+  [36m39[0m  [36m    (.subscribe (fn [xysin][0m
+  [36m40[0m  [36m                    (.log js/console (str xysin)))))[0m
+  [36m41[0m  [36m[0m
+  [36m42[0m  [36m(defn greeting [][0m
+
+[36m----  Compiler Warning : Please see src/cljs/sin_wave/core.cljs  ----[0m
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.777 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.719 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.919 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.764 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.65 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[36m----  Compiler Warning on   src/cljs/sin_wave/core.cljs   line:55  column:16  ----[0m
+
+  [1mCan't take value of macro cljs.core/time[0m
+
+  [36m51[0m  [36m    (.take 600)[0m
+  [36m52[0m  [36m    (.subscribe (fn [[{:keys [x y]} colour]][0m
+  [36m53[0m  [36m                    (fill-rect x y colour))))[0m
+  [36m54[0m  [36m[0m
+  [33m55[0m  [1m(def red (.map time (fn [_] "red")))[0m
+  [0m  [0m  [33m               ^--- Can't take value of macro cljs.core/time[0m
+  [36m56[0m  [36m(def blue (.map time (fn [_] "blue")))[0m
+  [36m57[0m  [36m[0m
+  [36m58[0m  [36m(defn greeting [][0m
+  [36m59[0m  [36m  [:h1 (:text @app-state)])[0m
+
+[36m----  Compiler Warning : Please see src/cljs/sin_wave/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/sin_wave/core.cljs   line:56  column:17  ----[0m
+
+  [1mCan't take value of macro cljs.core/time[0m
+
+  [36m52[0m  [36m    (.subscribe (fn [[{:keys [x y]} colour]][0m
+  [36m53[0m  [36m                    (fill-rect x y colour))))[0m
+  [36m54[0m  [36m[0m
+  [36m55[0m  [36m(def red (.map time (fn [_] "red")))[0m
+  [33m56[0m  [1m(def blue (.map time (fn [_] "blue")))[0m
+  [0m  [0m  [33m                ^--- Can't take value of macro cljs.core/time[0m
+  [36m57[0m  [36m[0m
+  [36m58[0m  [36m(defn greeting [][0m
+  [36m59[0m  [36m  [:h1 (:text @app-state)])[0m
+  [36m60[0m  [36m[0m
+  [36m61[0m  [36m(defn render [][0m
+
+[36m----  Compiler Warning : Please see src/cljs/sin_wave/core.cljs  ----[0m
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.797 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[36m----  Compiler Warning on   src/cljs/sin_wave/core.cljs   line:55  column:16  ----[0m
+
+  [1mCan't take value of macro cljs.core/time[0m
+
+  [36m51[0m  [36m    (.take 600)[0m
+  [36m52[0m  [36m    (.subscribe (fn [[{:keys [x y]} colour]][0m
+  [36m53[0m  [36m                    (fill-rect x y colour))))[0m
+  [36m54[0m  [36m[0m
+  [33m55[0m  [1m(def red (.map time (fn [_] "red")))[0m
+  [0m  [0m  [33m               ^--- Can't take value of macro cljs.core/time[0m
+  [36m56[0m  [36m(def blue (.map time (fn [_] "blue")))[0m
+  [36m57[0m  [36m[0m
+  [36m58[0m  [36m(def concat js/Rx.Observable.concat)[0m
+  [36m59[0m  [36m(def defer js/Rx.Observable.defer)[0m
+  [36m60[0m  [36m(def from-event js/Rx.Observable.fromEvent)[0m
+
+[36m----  Compiler Warning : Please see src/cljs/sin_wave/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/sin_wave/core.cljs   line:56  column:17  ----[0m
+
+  [1mCan't take value of macro cljs.core/time[0m
+
+  [36m52[0m  [36m    (.subscribe (fn [[{:keys [x y]} colour]][0m
+  [36m53[0m  [36m                    (fill-rect x y colour))))[0m
+  [36m54[0m  [36m[0m
+  [36m55[0m  [36m(def red (.map time (fn [_] "red")))[0m
+  [33m56[0m  [1m(def blue (.map time (fn [_] "blue")))[0m
+  [0m  [0m  [33m                ^--- Can't take value of macro cljs.core/time[0m
+  [36m57[0m  [36m[0m
+  [36m58[0m  [36m(def concat js/Rx.Observable.concat)[0m
+  [36m59[0m  [36m(def defer js/Rx.Observable.defer)[0m
+  [36m60[0m  [36m(def from-event js/Rx.Observable.fromEvent)[0m
+
+[36m----  Compiler Warning : Please see src/cljs/sin_wave/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/sin_wave/core.cljs   line:58  column:1  ----[0m
+
+  [1mconcat already refers to: cljs.core/concat being replaced by: sin-wave.core/concat[0m
+
+  [36m55[0m  [36m(def red (.map time (fn [_] "red")))[0m
+  [36m56[0m  [36m(def blue (.map time (fn [_] "blue")))[0m
+  [36m57[0m  [36m[0m
+  [33m58[0m  [1m(def concat js/Rx.Observable.concat)[0m
+  [0m  [0m  [33m^--- concat already refers to: cljs.core/concat being replaced by: sin-wave.core/concat[0m
+  [36m59[0m  [36m(def defer js/Rx.Observable.defer)[0m
+  [36m60[0m  [36m(def from-event js/Rx.Observable.fromEvent)[0m
+  [36m61[0m  [36m[0m
+  [36m62[0m  [36m(def mouse-click (from-event canvas "click"))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/sin_wave/core.cljs  ----[0m
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.706 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[36m----  Compiler Warning on   src/cljs/sin_wave/core.cljs   line:58  column:1  ----[0m
+
+  [1mconcat already refers to: cljs.core/concat being replaced by: sin-wave.core/concat[0m
+
+  [36m55[0m  [36m(def red (.map timing (fn [_] "red")))[0m
+  [36m56[0m  [36m(def blue (.map timing (fn [_] "blue")))[0m
+  [36m57[0m  [36m[0m
+  [33m58[0m  [1m(def concat js/Rx.Observable.concat)[0m
+  [0m  [0m  [33m^--- concat already refers to: cljs.core/concat being replaced by: sin-wave.core/concat[0m
+  [36m59[0m  [36m(def defer js/Rx.Observable.defer)[0m
+  [36m60[0m  [36m(def from-event js/Rx.Observable.fromEvent)[0m
+  [36m61[0m  [36m[0m
+  [36m62[0m  [36m(def mouse-click (from-event canvas "click"))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/sin_wave/core.cljs  ----[0m
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.862 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.823 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.795 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[36m----  Compiler Warning on   src/cljs/sin_wave/core.cljs   line:58  column:19  ----[0m
+
+  [1mUse of undeclared Var sin-wave.core/from-event[0m
+
+  [36m54[0m  [36m(def concats js/Rx.Observable.concat)[0m
+  [36m55[0m  [36m(def defers js/Rx.Observable.defer)[0m
+  [36m56[0m  [36m(def from-events js/Rx.Observable.fromEvent)[0m
+  [36m57[0m  [36m[0m
+  [33m58[0m  [1m(def mouse-click (from-event canvas "click"))[0m
+  [0m  [0m  [33m                  ^--- Use of undeclared Var sin-wave.core/from-event[0m
+  [36m59[0m  [36m[0m
+  [36m60[0m  [36m(def cycle-colour[0m
+  [36m61[0m  [36m  (concat (.takeUntil red mouse-click)[0m
+  [36m62[0m  [36m          (defer #(concat (.takeUntil blue mouse-click)[0m
+  [36m63[0m  [36m                          cycle-colour))))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/sin_wave/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/sin_wave/core.cljs   line:62  column:12  ----[0m
+
+  [1mUse of undeclared Var sin-wave.core/defer[0m
+
+  [36m58[0m  [36m(def mouse-click (from-event canvas "click"))[0m
+  [36m59[0m  [36m[0m
+  [36m60[0m  [36m(def cycle-colour[0m
+  [36m61[0m  [36m  (concat (.takeUntil red mouse-click)[0m
+  [33m62[0m  [1m          (defer #(concat (.takeUntil blue mouse-click)[0m
+  [0m  [0m  [33m           ^--- Use of undeclared Var sin-wave.core/defer[0m
+  [36m63[0m  [36m                          cycle-colour))))[0m
+  [36m64[0m  [36m[0m
+  [36m65[0m  [36m(-> (.zip sine-wave colour #(vector % %2))[0m
+  [36m66[0m  [36m    (.take 600)[0m
+  [36m67[0m  [36m    (.subscribe (fn [[{:keys [x y]} colour]][0m
+
+[36m----  Compiler Warning : Please see src/cljs/sin_wave/core.cljs  ----[0m
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.827 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.81 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.731 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.781 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.723 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.704 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.879 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.669 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.76 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[36m----  Compiler Warning on   src/cljs/sin_wave/core.cljs   line:52  column:1  ----[0m
+
+  [1mblue at line 51 is being replaced[0m
+
+  [36m48[0m  [36m                        "blue"))))[0m
+  [36m49[0m  [36m[0m
+  [36m50[0m  [36m(def red (.map timing (fn [_] "red")))[0m
+  [36m51[0m  [36m(def blue (.map timing (fn [_] "green")))[0m
+  [33m52[0m  [1m(def blue (.map timing (fn [_] "green")))[0m
+  [0m  [0m  [33m^--- blue at line 51 is being replaced[0m
+  [36m53[0m  [36m(def blue (.map timing (fn [_] "green")))[0m
+  [36m54[0m  [36m(def blue (.map timing (fn [_] "green")))[0m
+  [36m55[0m  [36m[0m
+  [36m56[0m  [36m(def concats js/Rx.Observable.concat)[0m
+  [36m57[0m  [36m(def defers js/Rx.Observable.defer)[0m
+
+[36m----  Compiler Warning : Please see src/cljs/sin_wave/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/sin_wave/core.cljs   line:53  column:1  ----[0m
+
+  [1mblue at line 52 is being replaced[0m
+
+  [36m50[0m  [36m(def red (.map timing (fn [_] "red")))[0m
+  [36m51[0m  [36m(def blue (.map timing (fn [_] "green")))[0m
+  [36m52[0m  [36m(def blue (.map timing (fn [_] "green")))[0m
+  [33m53[0m  [1m(def blue (.map timing (fn [_] "green")))[0m
+  [0m  [0m  [33m^--- blue at line 52 is being replaced[0m
+  [36m54[0m  [36m(def blue (.map timing (fn [_] "green")))[0m
+  [36m55[0m  [36m[0m
+  [36m56[0m  [36m(def concats js/Rx.Observable.concat)[0m
+  [36m57[0m  [36m(def defers js/Rx.Observable.defer)[0m
+  [36m58[0m  [36m(def from-events js/Rx.Observable.fromEvent)[0m
+
+[36m----  Compiler Warning : Please see src/cljs/sin_wave/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/sin_wave/core.cljs   line:54  column:1  ----[0m
+
+  [1mblue at line 53 is being replaced[0m
+
+  [36m50[0m  [36m(def red (.map timing (fn [_] "red")))[0m
+  [36m51[0m  [36m(def blue (.map timing (fn [_] "green")))[0m
+  [36m52[0m  [36m(def blue (.map timing (fn [_] "green")))[0m
+  [36m53[0m  [36m(def blue (.map timing (fn [_] "green")))[0m
+  [33m54[0m  [1m(def blue (.map timing (fn [_] "green")))[0m
+  [0m  [0m  [33m^--- blue at line 53 is being replaced[0m
+  [36m55[0m  [36m[0m
+  [36m56[0m  [36m(def concats js/Rx.Observable.concat)[0m
+  [36m57[0m  [36m(def defers js/Rx.Observable.defer)[0m
+  [36m58[0m  [36m(def from-events js/Rx.Observable.fromEvent)[0m
+
+[36m----  Compiler Warning : Please see src/cljs/sin_wave/core.cljs  ----[0m
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.745 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[36m----  Compiler Warning on   src/cljs/sin_wave/core.cljs   line:53  column:1  ----[0m
+
+  [1mblue at line 51 is being replaced[0m
+
+  [36m50[0m  [36m(def red (.map timing (fn [_] "red")))[0m
+  [36m51[0m  [36m(def blue (.map timing (fn [_] "green")))[0m
+  [36m52[0m  [36m(def orange (.map timing (fn [_] "orange")))[0m
+  [33m53[0m  [1m(def blue (.map timing (fn [_] "green")))[0m
+  [0m  [0m  [33m^--- blue at line 51 is being replaced[0m
+  [36m54[0m  [36m(def blue (.map timing (fn [_] "green")))[0m
+  [36m55[0m  [36m[0m
+  [36m56[0m  [36m(def concats js/Rx.Observable.concat)[0m
+  [36m57[0m  [36m(def defers js/Rx.Observable.defer)[0m
+  [36m58[0m  [36m(def from-events js/Rx.Observable.fromEvent)[0m
+
+[36m----  Compiler Warning : Please see src/cljs/sin_wave/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/sin_wave/core.cljs   line:54  column:1  ----[0m
+
+  [1mblue at line 53 is being replaced[0m
+
+  [36m50[0m  [36m(def red (.map timing (fn [_] "red")))[0m
+  [36m51[0m  [36m(def blue (.map timing (fn [_] "green")))[0m
+  [36m52[0m  [36m(def orange (.map timing (fn [_] "orange")))[0m
+  [36m53[0m  [36m(def blue (.map timing (fn [_] "green")))[0m
+  [33m54[0m  [1m(def blue (.map timing (fn [_] "green")))[0m
+  [0m  [0m  [33m^--- blue at line 53 is being replaced[0m
+  [36m55[0m  [36m[0m
+  [36m56[0m  [36m(def concats js/Rx.Observable.concat)[0m
+  [36m57[0m  [36m(def defers js/Rx.Observable.defer)[0m
+  [36m58[0m  [36m(def from-events js/Rx.Observable.fromEvent)[0m
+
+[36m----  Compiler Warning : Please see src/cljs/sin_wave/core.cljs  ----[0m
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.923 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[36m----  Compiler Warning on   src/cljs/sin_wave/core.cljs   line:54  column:1  ----[0m
+
+  [1mblue at line 51 is being replaced[0m
+
+  [36m50[0m  [36m(def red (.map timing (fn [_] "red")))[0m
+  [36m51[0m  [36m(def blue (.map timing (fn [_] "green")))[0m
+  [36m52[0m  [36m(def orange (.map timing (fn [_] "orange")))[0m
+  [36m53[0m  [36m(def yellow (.map timing (fn [_] "yellow")))[0m
+  [33m54[0m  [1m(def blue (.map timing (fn [_] "green")))[0m
+  [0m  [0m  [33m^--- blue at line 51 is being replaced[0m
+  [36m55[0m  [36m[0m
+  [36m56[0m  [36m(def concats js/Rx.Observable.concat)[0m
+  [36m57[0m  [36m(def defers js/Rx.Observable.defer)[0m
+  [36m58[0m  [36m(def from-events js/Rx.Observable.fromEvent)[0m
+
+[36m----  Compiler Warning : Please see src/cljs/sin_wave/core.cljs  ----[0m
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.799 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.732 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 1.022 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.667 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.828 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.848 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.869 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[36m----  Compiler Warning on   src/cljs/sin_wave/core.cljs   line:60  column:37  ----[0m
+
+  [1mUse of undeclared Var sin-wave.core/%[0m
+
+  [36m56[0m  [36m(defn rainbow-colour [n][0m
+  [36m57[0m  [36m  (.log js/console n)[0m
+  [36m58[0m  [36m  purple)[0m
+  [36m59[0m  [36m[0m
+  [33m60[0m  [1m(-> (.zip sine-wave (rainbow-colour %) #(vector % %2))[0m
+  [0m  [0m  [33m                                    ^--- Use of undeclared Var sin-wave.core/%[0m
+  [36m61[0m  [36m    (.take 600)[0m
+  [36m62[0m  [36m    (.subscribe (fn [[{:keys [x y]} colour]][0m
+  [36m63[0m  [36m                    (fill-rect x y colour))))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/sin_wave/core.cljs  ----[0m
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.779 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.912 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.806 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.742 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "dev"] in 0.384 seconds.[0m
+[36m----  Could not Analyze  src/cljs/sin_wave/core.cljs   line:56  column:1  ----[0m
+
+  [1mToo many arguments to def at line 56 src/cljs/sin_wave/core.cljs[0m
+
+  [36m54[0m  [36m                          cycle-colour))))[0m
+  [36m55[0m  [36m[0m
+  [33m56[0m  [1m(def rainbow-colour [n][0m
+  [0m  [0m  [33m^--- Too many arguments to def at line 56 src/cljs/sin_wave/core.cljs[0m
+  [36m57[0m  [36m  (.log js/console n)[0m
+  [36m58[0m  [36m  green)[0m
+
+[36m----  Analysis Error : Please see src/cljs/sin_wave/core.cljs  ----[0m
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "dev"] in 0.57 seconds.[0m
+[36m----  Could not Analyze  src/cljs/sin_wave/core.cljs   line:56  column:1  ----[0m
+
+  [1mToo many arguments to def at line 56 src/cljs/sin_wave/core.cljs[0m
+
+  [36m54[0m  [36m                          cycle-colour))))[0m
+  [36m55[0m  [36m[0m
+  [33m56[0m  [1m(def rainbow-colour[0m
+  [0m  [0m  [33m^--- Too many arguments to def at line 56 src/cljs/sin_wave/core.cljs[0m
+  [36m57[0m  [36m  (.log js/console n)[0m
+  [36m58[0m  [36m  green)[0m
+
+[36m----  Analysis Error : Please see src/cljs/sin_wave/core.cljs  ----[0m
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "dev"] in 0.517 seconds.[0m
+[36m----  Could not Analyze  src/cljs/sin_wave/core.cljs   line:56  column:1  ----[0m
+
+  [1mParameter declaration "1" should be a vector[0m
+
+  [36m54[0m  [36m                          cycle-colour))))[0m
+  [36m55[0m  [36m[0m
+  [33m56[0m  [1m(defn rainbow 1)[0m
+  [0m  [0m  [33m^--- Parameter declaration "1" should be a vector[0m
+  [36m57[0m  [36m[0m
+  [36m58[0m  [36m(def rainbow-colour[0m
+  [36m59[0m  [36m  (inc rainbow)[0m
+
+[36m----  Analysis Error : Please see src/cljs/sin_wave/core.cljs  ----[0m
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "dev"] in 0.394 seconds.[0m
+[36m----  Could not Read  src/cljs/sin_wave/core.cljs   line:56 ----[0m
+
+  [1m/home/altrunox/Documents/clojure/ClojureReactiveProgramming/sin-wave/src/cljs/sin_wave/core.cljs [line 56, col 22] The map literal starting with atom on line 56 column 15 contains 1 form(s). Map literals must contain an even number of forms.[0m
+
+  [36m54[0m  [36m                          cycle-colour))))[0m
+  [36m55[0m  [36m[0m
+  [33m56[0m  [1m(defn rainbow {atom })[0m
+  [0m  [0m  [33m/home/altrunox/Documents/clojure/ClojureReactiveProgramming/sin-wave/src/cljs/sin_wave/core.cljs [line 56, col 22] The map literal starting with atom on line 56 column 15 contains 1 form(s). Map literals must contain an even number of forms.[0m
+  [36m57[0m  [36m[0m
+  [36m58[0m  [36m(def rainbow-colour[0m
+  [36m59[0m  [36m  (inc rainbow)[0m
+
+[36m----  Reader Error : Please see src/cljs/sin_wave/core.cljs  ----[0m
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "dev"] in 0.452 seconds.[0m
+[36m----  Could not Analyze  src/cljs/sin_wave/core.cljs   line:56  column:1  ----[0m
+
+  [1mParameter declaration missing[0m
+
+  [36m54[0m  [36m                          cycle-colour))))[0m
+  [36m55[0m  [36m[0m
+  [33m56[0m  [1m(defn rainbow )[0m
+  [0m  [0m  [33m^--- Parameter declaration missing[0m
+  [36m57[0m  [36m[0m
+  [36m58[0m  [36m(def rainbow-colour[0m
+  [36m59[0m  [36m  (inc rainbow)[0m
+
+[36m----  Analysis Error : Please see src/cljs/sin_wave/core.cljs  ----[0m
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "dev"] in 0.393 seconds.[0m
+[36m----  Could not Analyze  src/cljs/sin_wave/core.cljs   line:56  column:1  ----[0m
+
+  [1mParameter declaration "r/atom" should be a vector[0m
+
+  [36m54[0m  [36m                          cycle-colour))))[0m
+  [36m55[0m  [36m[0m
+  [33m56[0m  [1m(defn rainbow (r/atom 0))[0m
+  [0m  [0m  [33m^--- Parameter declaration "r/atom" should be a vector[0m
+  [36m57[0m  [36m[0m
+  [36m58[0m  [36m(def rainbow-colour[0m
+  [36m59[0m  [36m  (inc rainbow)[0m
+
+[36m----  Analysis Error : Please see src/cljs/sin_wave/core.cljs  ----[0m
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "dev"] in 0.485 seconds.[0m
+[36m----  Could not Analyze  src/cljs/sin_wave/core.cljs   line:56  column:1  ----[0m
+
+  [1mParameter declaration "r/atom" should be a vector[0m
+
+  [36m54[0m  [36m                          cycle-colour))))[0m
+  [36m55[0m  [36m[0m
+  [33m56[0m  [1m(defn rainbow (r/atom 0))[0m
+  [0m  [0m  [33m^--- Parameter declaration "r/atom" should be a vector[0m
+  [36m57[0m  [36m[0m
+  [36m58[0m  [36m(def rainbow-colour[0m
+  [36m59[0m  [36m  (swap! rainbow inc)[0m
+
+[36m----  Analysis Error : Please see src/cljs/sin_wave/core.cljs  ----[0m
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[36m----  Compiler Warning on   src/cljs/sin_wave/core.cljs   line:56  column:15  ----[0m
+
+  [1mNo such namespace: r, could not locate r.cljs, r.cljc, or JavaScript source providing "r"[0m
+
+  [36m52[0m  [36m  (concats (.takeUntil red mouse-click)[0m
+  [36m53[0m  [36m          (defers #(concats (.takeUntil blue mouse-click)[0m
+  [36m54[0m  [36m                          cycle-colour))))[0m
+  [36m55[0m  [36m[0m
+  [33m56[0m  [1m(def rainbow (r/atom 0))[0m
+  [0m  [0m  [33m              ^--- No such namespace: r, could not locate r.cljs, r.cljc, or JavaScript source providing "r"[0m
+  [36m57[0m  [36m[0m
+  [36m58[0m  [36m(def rainbow-colour[0m
+  [36m59[0m  [36m  (swap! rainbow inc)[0m
+  [36m60[0m  [36m  (.log js/console rainbow)[0m
+  [36m61[0m  [36m  purple[0m
+
+[36m----  Compiler Warning : Please see src/cljs/sin_wave/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/sin_wave/core.cljs   line:56  column:15  ----[0m
+
+  [1mUse of undeclared Var r/atom[0m
+
+  [36m52[0m  [36m  (concats (.takeUntil red mouse-click)[0m
+  [36m53[0m  [36m          (defers #(concats (.takeUntil blue mouse-click)[0m
+  [36m54[0m  [36m                          cycle-colour))))[0m
+  [36m55[0m  [36m[0m
+  [33m56[0m  [1m(def rainbow (r/atom 0))[0m
+  [0m  [0m  [33m              ^--- Use of undeclared Var r/atom[0m
+  [36m57[0m  [36m[0m
+  [36m58[0m  [36m(def rainbow-colour[0m
+  [36m59[0m  [36m  (swap! rainbow inc)[0m
+  [36m60[0m  [36m  (.log js/console rainbow)[0m
+  [36m61[0m  [36m  purple[0m
+
+[36m----  Compiler Warning : Please see src/cljs/sin_wave/core.cljs  ----[0m
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "dev"] in 0.628 seconds.[0m
+[36m----  Could not Analyze  src/cljs/sin_wave/core.cljs   line:58  column:1  ----[0m
+
+  [1mToo many arguments to def at line 58 src/cljs/sin_wave/core.cljs[0m
+
+  [36m56[0m  [36m(def rainbow (r/atom 0))[0m
+  [36m57[0m  [36m[0m
+  [33m58[0m  [1m(def rainbow-colour[0m
+  [0m  [0m  [33m^--- Too many arguments to def at line 58 src/cljs/sin_wave/core.cljs[0m
+  [36m59[0m  [36m  (swap! rainbow inc)[0m
+  [36m60[0m  [36m  (.log js/console rainbow)[0m
+  [36m61[0m  [36m  purple[0m
+
+[36m----  Analysis Error : Please see src/cljs/sin_wave/core.cljs  ----[0m
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[36m----  Compiler Warning on   src/cljs/sin_wave/core.cljs   line:56  column:15  ----[0m
+
+  [1mNo such namespace: r, could not locate r.cljs, r.cljc, or JavaScript source providing "r"[0m
+
+  [36m52[0m  [36m  (concats (.takeUntil red mouse-click)[0m
+  [36m53[0m  [36m          (defers #(concats (.takeUntil blue mouse-click)[0m
+  [36m54[0m  [36m                          cycle-colour))))[0m
+  [36m55[0m  [36m[0m
+  [33m56[0m  [1m(def rainbow (r/atom 0))[0m
+  [0m  [0m  [33m              ^--- No such namespace: r, could not locate r.cljs, r.cljc, or JavaScript source providing "r"[0m
+  [36m57[0m  [36m[0m
+  [36m58[0m  [36m(defn rainbow-colour [][0m
+  [36m59[0m  [36m  (swap! rainbow inc)[0m
+  [36m60[0m  [36m  (.log js/console rainbow)[0m
+  [36m61[0m  [36m  purple[0m
+
+[36m----  Compiler Warning : Please see src/cljs/sin_wave/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/sin_wave/core.cljs   line:56  column:15  ----[0m
+
+  [1mUse of undeclared Var r/atom[0m
+
+  [36m52[0m  [36m  (concats (.takeUntil red mouse-click)[0m
+  [36m53[0m  [36m          (defers #(concats (.takeUntil blue mouse-click)[0m
+  [36m54[0m  [36m                          cycle-colour))))[0m
+  [36m55[0m  [36m[0m
+  [33m56[0m  [1m(def rainbow (r/atom 0))[0m
+  [0m  [0m  [33m              ^--- Use of undeclared Var r/atom[0m
+  [36m57[0m  [36m[0m
+  [36m58[0m  [36m(defn rainbow-colour [][0m
+  [36m59[0m  [36m  (swap! rainbow inc)[0m
+  [36m60[0m  [36m  (.log js/console rainbow)[0m
+  [36m61[0m  [36m  purple[0m
+
+[36m----  Compiler Warning : Please see src/cljs/sin_wave/core.cljs  ----[0m
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.918 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.896 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.836 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.897 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.925 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.812 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.938 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.975 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.724 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.79 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "dev"] in 0.512 seconds.[0m
+[36m----  Could not Analyze  src/cljs/sin_wave/core.cljs   line:58  column:1  ----[0m
+
+  [1mToo many arguments to def at line 58 src/cljs/sin_wave/core.cljs[0m
+
+  [36m56[0m  [36m(def rainbow 0)[0m
+  [36m57[0m  [36m[0m
+  [33m58[0m  [1m(def rainbow-colour[0m
+  [0m  [0m  [33m^--- Too many arguments to def at line 58 src/cljs/sin_wave/core.cljs[0m
+  [36m59[0m  [36m  (fn [] (rainbow inc) )[0m
+  [36m60[0m  [36m  green[0m
+  [36m61[0m  [36m  )[0m
+
+[36m----  Analysis Error : Please see src/cljs/sin_wave/core.cljs  ----[0m
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "dev"] in 0.375 seconds.[0m
+[36m----  Could not Analyze  src/cljs/sin_wave/core.cljs   line:58  column:1  ----[0m
+
+  [1mToo many arguments to def at line 58 src/cljs/sin_wave/core.cljs[0m
+
+  [36m56[0m  [36m(def rainbow 0)[0m
+  [36m57[0m  [36m[0m
+  [33m58[0m  [1m(def rainbow-colour[0m
+  [0m  [0m  [33m^--- Too many arguments to def at line 58 src/cljs/sin_wave/core.cljs[0m
+  [36m59[0m  [36m  fn [] (rainbow inc) [0m
+  [36m60[0m  [36m  green[0m
+  [36m61[0m  [36m  )[0m
+
+[36m----  Analysis Error : Please see src/cljs/sin_wave/core.cljs  ----[0m
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.648 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "dev"] in 0.621 seconds.[0m
+[36m----  Could not Analyze  src/cljs/sin_wave/core.cljs   line:63  column:5  ----[0m
+
+  [1mWrong number of args (2) passed to: cljs.core/inc[0m
+
+  [36m61[0m  [36m(-> (.zip sine-wave rainbow-colour  #(vector % %2))[0m
+  [36m62[0m  [36m    (.take 600)[0m
+  [33m63[0m  [1m    (inc rainbow)[0m
+  [0m  [0m  [33m    ^--- Wrong number of args (2) passed to: cljs.core/inc[0m
+  [36m64[0m  [36m    (.subscribe (fn [[{:keys [x y]} colour]][0m
+  [36m65[0m  [36m                    (fill-rect x y colour))))[0m
+
+[36m----  Analysis Error : Please see src/cljs/sin_wave/core.cljs  ----[0m
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "dev"] in 0.382 seconds.[0m
+[36m----  Could not Analyze  src/cljs/sin_wave/core.cljs   line:63  column:5  ----[0m
+
+  [1mWrong number of args (3) passed to: cljs.core/inc[0m
+
+  [36m61[0m  [36m(-> (.zip sine-wave rainbow-colour  #(vector % %2))[0m
+  [36m62[0m  [36m    (.take 600)[0m
+  [33m63[0m  [1m    (inc rainbow 1)[0m
+  [0m  [0m  [33m    ^--- Wrong number of args (3) passed to: cljs.core/inc[0m
+  [36m64[0m  [36m    (.subscribe (fn [[{:keys [x y]} colour]][0m
+  [36m65[0m  [36m                    (fill-rect x y colour))))[0m
+
+[36m----  Analysis Error : Please see src/cljs/sin_wave/core.cljs  ----[0m
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.73 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.834 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.74 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.721 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.77 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.85 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "dev"] in 0.339 seconds.[0m
+[36m----  Could not Analyze  src/cljs/sin_wave/core.cljs   line:58  column:1  ----[0m
+
+  [1mToo many arguments to def at line 58 src/cljs/sin_wave/core.cljs[0m
+
+  [36m56[0m  [36m(def rainbow (reagent/atom 0))[0m
+  [36m57[0m  [36m[0m
+  [33m58[0m  [1m(def rainbow-colour[0m
+  [0m  [0m  [33m^--- Too many arguments to def at line 58 src/cljs/sin_wave/core.cljs[0m
+  [36m59[0m  [36m  (concat (.takeUntil red (> @rainbow 100)))[0m
+  [36m60[0m  [36m  green)[0m
+
+[36m----  Analysis Error : Please see src/cljs/sin_wave/core.cljs  ----[0m
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.787 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.737 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.866 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "dev"] in 0.406 seconds.[0m
+[36m----  Could not Analyze  src/cljs/sin_wave/core.cljs   line:58  column:1  ----[0m
+
+  [1mToo many arguments to def at line 58 src/cljs/sin_wave/core.cljs[0m
+
+  [36m56[0m  [36m(def rainbow (reagent/atom 0))[0m
+  [36m57[0m  [36m[0m
+  [33m58[0m  [1m(def rainbow-colour[0m
+  [0m  [0m  [33m^--- Too many arguments to def at line 58 src/cljs/sin_wave/core.cljs[0m
+  [36m59[0m  [36m  (concats (> @rainbow 100) red)[0m
+  [36m60[0m  [36m           (defers #(concats ((< @rainbow 101) blue)[0m
+  [36m61[0m  [36m                             rainbow-colour)))[0m
+
+[36m----  Analysis Error : Please see src/cljs/sin_wave/core.cljs  ----[0m
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "dev"] in 0.55 seconds.[0m
+[36m----  Could not Analyze  src/cljs/sin_wave/core.cljs   line:58  column:1  ----[0m
+
+  [1mToo many arguments to def at line 58 src/cljs/sin_wave/core.cljs[0m
+
+  [36m56[0m  [36m(def rainbow (reagent/atom 0))[0m
+  [36m57[0m  [36m[0m
+  [33m58[0m  [1m(def rainbow-colour[0m
+  [0m  [0m  [33m^--- Too many arguments to def at line 58 src/cljs/sin_wave/core.cljs[0m
+  [36m59[0m  [36m  (concats (> @rainbow 100) red)[0m
+  [36m60[0m  [36m           (defers #(concats (< @rainbow 101) blue)[0m
+  [36m61[0m  [36m                             rainbow-colour))[0m
+
+[36m----  Analysis Error : Please see src/cljs/sin_wave/core.cljs  ----[0m
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.872 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.936 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.966 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.793 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.993 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.843 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 1.17 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.757 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.788 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.815 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "dev"] in 0.538 seconds.[0m
+[36m----  Could not Analyze  src/cljs/sin_wave/core.cljs   line:59  column:3  ----[0m
+
+  [1mcond requires an even number of forms[0m
+
+  [36m58[0m  [36m(defn changeRainbowColor [x][0m
+  [33m59[0m  [1m  (cond[0m
+  [0m  [0m  [33m  ^--- cond requires an even number of forms[0m
+  [36m60[0m  [36m    <)[0m
+  [36m61[0m  [36m      )[0m
+
+[36m----  Analysis Error : Please see src/cljs/sin_wave/core.cljs  ----[0m
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "dev"] in 0.452 seconds.[0m
+[36m----  Could not Analyze  src/cljs/sin_wave/core.cljs   line:59  column:3  ----[0m
+
+  [1mcond requires an even number of forms[0m
+
+  [36m58[0m  [36m(defn changeRainbowColor [x][0m
+  [33m59[0m  [1m  (cond[0m
+  [0m  [0m  [33m  ^--- cond requires an even number of forms[0m
+  [36m60[0m  [36m    ())[0m
+  [36m61[0m  [36m      )[0m
+
+[36m----  Analysis Error : Please see src/cljs/sin_wave/core.cljs  ----[0m
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "dev"] in 0.499 seconds.[0m
+[36m----  Could not Analyze  src/cljs/sin_wave/core.cljs   line:59  column:3  ----[0m
+
+  [1mcond requires an even number of forms[0m
+
+  [36m58[0m  [36m(defn changeRainbowColor [x][0m
+  [33m59[0m  [1m  (cond[0m
+  [0m  [0m  [33m  ^--- cond requires an even number of forms[0m
+  [36m60[0m  [36m    (< n ))[0m
+  [36m61[0m  [36m      )[0m
+
+[36m----  Analysis Error : Please see src/cljs/sin_wave/core.cljs  ----[0m
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "dev"] in 0.397 seconds.[0m
+[36m----  Could not Analyze  src/cljs/sin_wave/core.cljs   line:59  column:3  ----[0m
+
+  [1mcond requires an even number of forms[0m
+
+  [36m58[0m  [36m(defn changeRainbowColor [x][0m
+  [33m59[0m  [1m  (cond[0m
+  [0m  [0m  [33m  ^--- cond requires an even number of forms[0m
+  [36m60[0m  [36m    (> n ))[0m
+  [36m61[0m  [36m      )[0m
+
+[36m----  Analysis Error : Please see src/cljs/sin_wave/core.cljs  ----[0m
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "dev"] in 0.382 seconds.[0m
+[36m----  Could not Analyze  src/cljs/sin_wave/core.cljs   line:59  column:3  ----[0m
+
+  [1mcond requires an even number of forms[0m
+
+  [36m58[0m  [36m(defn changeRainbowColor [x][0m
+  [33m59[0m  [1m  (cond[0m
+  [0m  [0m  [33m  ^--- cond requires an even number of forms[0m
+  [36m60[0m  [36m    (> n 500))[0m
+  [36m61[0m  [36m      )[0m
+
+[36m----  Analysis Error : Please see src/cljs/sin_wave/core.cljs  ----[0m
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[36m----  Compiler Warning on   src/cljs/sin_wave/core.cljs   line:60  column:8  ----[0m
+
+  [1mUse of undeclared Var sin-wave.core/n[0m
+
+  [36m56[0m  [36m(def rainbow (reagent/atom red))[0m
+  [36m57[0m  [36m[0m
+  [36m58[0m  [36m(defn changeRainbowColor [x][0m
+  [36m59[0m  [36m  (cond[0m
+  [33m60[0m  [1m    (> n 500) (reset! rainbow red)[0m
+  [0m  [0m  [33m       ^--- Use of undeclared Var sin-wave.core/n[0m
+  [36m61[0m  [36m    (> n 400) (reset! rainbow blue)[0m
+  [36m62[0m  [36m    (> n 300) (reset! rainbow purple)[0m
+  [36m63[0m  [36m    (> n 200) (reset! rainbow green)[0m
+  [36m64[0m  [36m    (> n 100) (reset! rainbow yellow)[0m
+  [36m65[0m  [36m    (> n 0) (reset! rainbow orange)[0m
+
+[36m----  Compiler Warning : Please see src/cljs/sin_wave/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/sin_wave/core.cljs   line:61  column:8  ----[0m
+
+  [1mUse of undeclared Var sin-wave.core/n[0m
+
+  [36m58[0m  [36m(defn changeRainbowColor [x][0m
+  [36m59[0m  [36m  (cond[0m
+  [36m60[0m  [36m    (> n 500) (reset! rainbow red)[0m
+  [33m61[0m  [1m    (> n 400) (reset! rainbow blue)[0m
+  [0m  [0m  [33m       ^--- Use of undeclared Var sin-wave.core/n[0m
+  [36m62[0m  [36m    (> n 300) (reset! rainbow purple)[0m
+  [36m63[0m  [36m    (> n 200) (reset! rainbow green)[0m
+  [36m64[0m  [36m    (> n 100) (reset! rainbow yellow)[0m
+  [36m65[0m  [36m    (> n 0) (reset! rainbow orange)[0m
+  [36m66[0m  [36m    ))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/sin_wave/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/sin_wave/core.cljs   line:62  column:8  ----[0m
+
+  [1mUse of undeclared Var sin-wave.core/n[0m
+
+  [36m58[0m  [36m(defn changeRainbowColor [x][0m
+  [36m59[0m  [36m  (cond[0m
+  [36m60[0m  [36m    (> n 500) (reset! rainbow red)[0m
+  [36m61[0m  [36m    (> n 400) (reset! rainbow blue)[0m
+  [33m62[0m  [1m    (> n 300) (reset! rainbow purple)[0m
+  [0m  [0m  [33m       ^--- Use of undeclared Var sin-wave.core/n[0m
+  [36m63[0m  [36m    (> n 200) (reset! rainbow green)[0m
+  [36m64[0m  [36m    (> n 100) (reset! rainbow yellow)[0m
+  [36m65[0m  [36m    (> n 0) (reset! rainbow orange)[0m
+  [36m66[0m  [36m    ))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/sin_wave/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/sin_wave/core.cljs   line:63  column:8  ----[0m
+
+  [1mUse of undeclared Var sin-wave.core/n[0m
+
+  [36m59[0m  [36m  (cond[0m
+  [36m60[0m  [36m    (> n 500) (reset! rainbow red)[0m
+  [36m61[0m  [36m    (> n 400) (reset! rainbow blue)[0m
+  [36m62[0m  [36m    (> n 300) (reset! rainbow purple)[0m
+  [33m63[0m  [1m    (> n 200) (reset! rainbow green)[0m
+  [0m  [0m  [33m       ^--- Use of undeclared Var sin-wave.core/n[0m
+  [36m64[0m  [36m    (> n 100) (reset! rainbow yellow)[0m
+  [36m65[0m  [36m    (> n 0) (reset! rainbow orange)[0m
+  [36m66[0m  [36m    ))[0m
+  [36m67[0m  [36m[0m
+  [36m68[0m  [36m(-> (.zip sine-wave @rainbow  #(vector % %2))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/sin_wave/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/sin_wave/core.cljs   line:64  column:8  ----[0m
+
+  [1mUse of undeclared Var sin-wave.core/n[0m
+
+  [36m60[0m  [36m    (> n 500) (reset! rainbow red)[0m
+  [36m61[0m  [36m    (> n 400) (reset! rainbow blue)[0m
+  [36m62[0m  [36m    (> n 300) (reset! rainbow purple)[0m
+  [36m63[0m  [36m    (> n 200) (reset! rainbow green)[0m
+  [33m64[0m  [1m    (> n 100) (reset! rainbow yellow)[0m
+  [0m  [0m  [33m       ^--- Use of undeclared Var sin-wave.core/n[0m
+  [36m65[0m  [36m    (> n 0) (reset! rainbow orange)[0m
+  [36m66[0m  [36m    ))[0m
+  [36m67[0m  [36m[0m
+  [36m68[0m  [36m(-> (.zip sine-wave @rainbow  #(vector % %2))[0m
+  [36m69[0m  [36m    (.take 600)[0m
+
+[36m----  Compiler Warning : Please see src/cljs/sin_wave/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/sin_wave/core.cljs   line:65  column:8  ----[0m
+
+  [1mUse of undeclared Var sin-wave.core/n[0m
+
+  [36m61[0m  [36m    (> n 400) (reset! rainbow blue)[0m
+  [36m62[0m  [36m    (> n 300) (reset! rainbow purple)[0m
+  [36m63[0m  [36m    (> n 200) (reset! rainbow green)[0m
+  [36m64[0m  [36m    (> n 100) (reset! rainbow yellow)[0m
+  [33m65[0m  [1m    (> n 0) (reset! rainbow orange)[0m
+  [0m  [0m  [33m       ^--- Use of undeclared Var sin-wave.core/n[0m
+  [36m66[0m  [36m    ))[0m
+  [36m67[0m  [36m[0m
+  [36m68[0m  [36m(-> (.zip sine-wave @rainbow  #(vector % %2))[0m
+  [36m69[0m  [36m    (.take 600)[0m
+  [36m70[0m  [36m    (.subscribe (fn [[{:keys [x y]} colour]][0m
+
+[36m----  Compiler Warning : Please see src/cljs/sin_wave/core.cljs  ----[0m
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.906 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.807 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[36m----  Compiler Warning on   src/cljs/sin_wave/core.cljs   line:60  column:16  ----[0m
+
+  [1mUse of undeclared Var sin-wave.core/s[0m
+
+  [36m56[0m  [36m(def rainbow (reagent/atom red))[0m
+  [36m57[0m  [36m[0m
+  [36m58[0m  [36m(defn changeRainbowColor [n][0m
+  [36m59[0m  [36m  (cond[0m
+  [33m60[0m  [1m    (> n 500) (s rainbow red)[0m
+  [0m  [0m  [33m               ^--- Use of undeclared Var sin-wave.core/s[0m
+  [36m61[0m  [36m    (> n 400) (reset! rainbow blue)[0m
+  [36m62[0m  [36m    (> n 300) (reset! rainbow purple)[0m
+  [36m63[0m  [36m    (> n 200) (reset! rainbow green)[0m
+  [36m64[0m  [36m    (> n 100) (reset! rainbow yellow)[0m
+  [36m65[0m  [36m    (> n 0) (reset! rainbow orange)[0m
+
+[36m----  Compiler Warning : Please see src/cljs/sin_wave/core.cljs  ----[0m
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.936 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[36m----  Compiler Warning on   src/cljs/sin_wave/core.cljs   line:60  column:16  ----[0m
+
+  [1mUse of undeclared Var sin-wave.core/s[0m
+
+  [36m56[0m  [36m(def rainbow (reagent/atom red))[0m
+  [36m57[0m  [36m[0m
+  [36m58[0m  [36m(defn changeRainbowColor [n][0m
+  [36m59[0m  [36m  (cond[0m
+  [33m60[0m  [1m    (> n 500) (s rainbow red)[0m
+  [0m  [0m  [33m               ^--- Use of undeclared Var sin-wave.core/s[0m
+  [36m61[0m  [36m    (> n 400) (reset! rainbow blue)[0m
+  [36m62[0m  [36m    (> n 300) (reset! rainbow purple)[0m
+  [36m63[0m  [36m    (> n 200) (reset! rainbow green)[0m
+  [36m64[0m  [36m    (> n 100) (reset! rainbow yellow)[0m
+  [36m65[0m  [36m    (> n 0) (reset! rainbow orange)[0m
+
+[36m----  Compiler Warning : Please see src/cljs/sin_wave/core.cljs  ----[0m
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.871 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.686 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[36m----  Compiler Warning on   src/cljs/sin_wave/core.cljs   line:59  column:24  ----[0m
+
+  [1mUse of undeclared Var sin-wave.core/x[0m
+
+  [36m56[0m  [36m(def rainbow (reagent/atom red))[0m
+  [36m57[0m  [36m[0m
+  [36m58[0m  [36m(defn changeRainbowColor [n][0m
+  [33m59[0m  [1m      (.log js/console x)[0m
+  [0m  [0m  [33m                       ^--- Use of undeclared Var sin-wave.core/x[0m
+  [36m60[0m  [36m  (cond[0m
+  [36m61[0m  [36m    (> n 500) (reset! rainbow red)[0m
+  [36m62[0m  [36m    (> n 400) (reset! rainbow blue)[0m
+  [36m63[0m  [36m    (> n 300) (reset! rainbow purple)[0m
+  [36m64[0m  [36m    (> n 200) (reset! rainbow green)[0m
+
+[36m----  Compiler Warning : Please see src/cljs/sin_wave/core.cljs  ----[0m
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.889 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.808 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.791 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.728 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.825 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.926 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[36m----  Compiler Warning on   src/cljs/sin_wave/core.cljs   line:67  column:11  ----[0m
+
+  [1mWrong number of args (1) passed to cljs.core/reset![0m
+
+  [36m63[0m  [36m    (< n 300) (reset! rainbow purple)[0m
+  [36m64[0m  [36m    (< n 200) (reset! rainbow green)[0m
+  [36m65[0m  [36m    (< n 100) (reset! rainbow yellow)[0m
+  [36m66[0m  [36m    (< n 0) (reset! rainbow orange)[0m
+  [33m67[0m  [1m    :else (reset! rainbow)[0m
+  [0m  [0m  [33m          ^--- Wrong number of args (1) passed to cljs.core/reset![0m
+  [36m68[0m  [36m    ))[0m
+  [36m69[0m  [36m[0m
+  [36m70[0m  [36m(-> (.zip sine-wave @rainbow  #(vector % %2))[0m
+  [36m71[0m  [36m    (.take 600)[0m
+  [36m72[0m  [36m    (.subscribe (fn [[{:keys [x y]} colour]][0m
+
+[36m----  Compiler Warning : Please see src/cljs/sin_wave/core.cljs  ----[0m
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.868 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.88 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.749 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.787 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.803 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.801 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.799 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.795 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.784 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.808 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.749 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.756 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.686 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.837 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 1.003 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.831 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[36m----  Compiler Warning on   src/cljs/sin_wave/core.cljs   line:6  column:28  ----[0m
+
+  [1mUse of undeclared Var sin-wave.core/red[0m
+
+  [36m 2[0m  [36m  (:require [reagent.core :as reagent :refer [atom]]))[0m
+  [36m 3[0m  [36m[0m
+  [36m 4[0m  [36m(enable-console-print!)[0m
+  [36m 5[0m  [36m[0m
+  [33m 6[0m  [1m(def rainbow (reagent/atom red))[0m
+  [0m  [0m  [33m                           ^--- Use of undeclared Var sin-wave.core/red[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(def app-state (atom {:text "Hello Chestnutsss!"}))[0m
+  [36m 9[0m  [36m[0m
+  [36m10[0m  [36m(def canvas (.getElementById js/document "myCanvas"))[0m
+  [36m11[0m  [36m(def ctx (.getContext canvas "2d"))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/sin_wave/core.cljs  ----[0m
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.861 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 1.039 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.818 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.796 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.79 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js
+Compiling build :app to "dev-target/public/js/compiled/sin_wave.js" from ["src/cljs" "src/cljc" "dev"]...
+[32mSuccessfully compiled build :app to "dev-target/public/js/compiled/sin_wave.js" in 0.662 seconds.[0m
+notifying browser that file changed:  dev-target/public/js/compiled/out/sin_wave/core.js

@@ -1,0 +1,1 @@
+{:main cljs.user, :asset-path "js/compiled/out", :output-to "dev-target/public/js/compiled/sin_wave.js", :output-dir "dev-target/public/js/compiled/out", :source-map-timestamp true, :optimizations :none, :preloads [figwheel.connect], :external-config #:figwheel{:config {:on-jsload "sin-wave.system/reset", :build-id "app", :websocket-url "ws://localhost:3449/figwheel-ws"}}}
