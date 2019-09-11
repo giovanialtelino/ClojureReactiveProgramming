@@ -58,6 +58,73 @@
                    (rx/take 6))
               prn-to-repl)
 
+(defn exception-obs []
+  (rx/observable*
+    (fn [observer]
+      (rx/on-next observer (throw (Exception. "Oops. Something went wrong")))
+      (rx/on-completed observer))))
+
+(rx/subscribe (->> (exception-obs)
+                   (rx/map inc))
+              (fn [v] (prn-to-repl "result is " v))
+              (fn [e] (prn-to-repl "error is" e)))
+
+(rx/subscribe (->> (exception-obs)
+                   (rx/catch Exception e (rx/return 10))
+                   (rx/map inc))
+              (fn [v] (prn-to-repl "error result is " v)))
+
+(rx/subscribe (->> (exception-obs)
+                   (rx/catch Exception e (rx/seq->o (range 5)))
+                   (rx/map inc))
+              (fn [v] (prn-to-repl "vec error result is " v)))
+
+(defn retry-obs []
+  (let [errored (atom false)]
+    (rx/observable*
+      (fn [observer]
+        (if @errored
+          (rx/on-next observer 20)
+          (do (reset! errored true)
+              (throw (Exception. "Oppsss something is wrong"))))))))
+
+(rx/subscribe (->> (retry-obs)
+                    (.retry))
+              (fn [v] (prn-to-repl "result is" v)))
+
+(defn fast-producing-obs []
+  (rx/map inc (Observable/interval 1 TimeUnit/MILLISECONDS)))
+
+(defn slow-producing-obs []
+  (rx/map inc (Observable/interval 500 TimeUnit/MILLISECONDS)))
+
+(rx/subscribe (->> (rx/map vector
+                           (fast-producing-obs)
+                           (slow-producing-obs))
+                   (rx/map (fn [[x y]]
+                             (+ x y)))
+                   (rx/take 10))
+              prn-to-repl
+              (fn [e] (prn-to-repl "error is " e)))
+
+(rx/subscribe (->> (rx/map vector
+                           (.sample (fast-producing-obs) 200 TimeUnit/MILLISECONDS)
+                           (slow-producing-obs))
+                   (rx/map (fn [[x y]]
+                             (+ x y)))
+                   (rx/take 10))
+              prn-to-repl
+              (fn [e] (prn-to-repl "error is " e)))
+
+(rx/subscribe (->> (rx/map vector
+                           (.onBackpressureBuffer (fast-producing-obs))
+                           (slow-producing-obs))
+                   (rx/map (fn [[x y]]
+                             (+ x y)))
+                   (rx/take 10000))
+              prn-to-repl
+              (fn [e] (prn-to-repl "error is " e)))
+
 (defn foo
   "I don't do a whole lot."
   [x]
