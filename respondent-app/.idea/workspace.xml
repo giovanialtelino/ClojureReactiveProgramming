@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c70f48f-aab6-4a0e-a794-3f3fff0ce727" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project.clj" beforeDir="false" afterPath="$PROJECT_DIR$/project.clj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/respondent/core.clj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/respondent/core_test.clj" beforeDir="false" />
+    <list default="true" id="86670d5d-c98a-465d-997f-0a7a146085be" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../respondent/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../respondent/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../respondent/project.clj" beforeDir="false" afterPath="$PROJECT_DIR$/../respondent/project.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../respondent/src/respondent/core.clj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../respondent/test/respondent/core_test.clj" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,22 +13,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Clojure Namespace" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1QkipnVDh5vJoy42j7vjpubuLfo" />
+  <component name="ProjectId" id="1QlAWJUfVJQ2pmBw022RpFYFYoE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="cursive.last.file.extension./home/altrunox/Documents/clojure/ClojureReactiveProgramming/respondent/src" value="clj" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../respondent-app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../reagi-game" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -64,11 +55,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1c70f48f-aab6-4a0e-a794-3f3fff0ce727" name="Default Changelist" comment="" />
-      <created>1568321179340</created>
+      <changelist id="86670d5d-c98a-465d-997f-0a7a146085be" name="Default Changelist" comment="" />
+      <created>1568334839046</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1568321179340</updated>
+      <updated>1568334839046</updated>
     </task>
     <servers />
   </component>
