@@ -2,10 +2,24 @@
   (:require [om.core :as om :include-macros true]
             [om.dom :as dom :include-macros true]
             [cljs.core.async :refer [put! chan <!]]
-            [om-pm.util :refer [set-transfer-data! get-transfer-data! move-card!]])
+            [om-pm.util :refer [set-transfer-data! get-transfer-data! move-card!]]
+            [goog.events :as events])
   (:require-macros [cljs.core.async.macros :refer [go go-loop]]))
 
 (enable-console-print!)
+
+;arrow keys bellow
+(def UP 38)
+(def RIGHT 39)
+(def DOWN 40)
+(def LEFT 37)
+(def nextCol 78)
+(def previewCol 80)
+
+(defn listen [el type]
+  (let [c (chan)]
+    (events/listen el type #(put! c %))
+    c))
 
 (def cards [{:id 1
              :title "Groceries shopping"
@@ -55,7 +69,8 @@
                                 :width "320px"
                                 :padding "10px"}
                     :onDragOver #(.preventDefault %)
-                    :onDrop #(handle-drop % transfer-chan title)}
+                    :onDrop #(handle-drop % transfer-chan title)
+                    }
                (dom/h2 nil title)
                (apply dom/ul #js {:style #js {:list-style-type "none"
                                               :padding "0px"}}
